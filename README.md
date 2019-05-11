@@ -32,7 +32,7 @@ Cloning the repository and compiling (use any user with the sudo group):
 
 Running the daemon:
 
-    awardcoind
+    awardcoind &
 
 Stopping the daemon:
 
