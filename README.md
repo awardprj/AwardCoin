@@ -19,7 +19,7 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/awardprj/AwardCoin/AwardCoin.git
+    git clone https://github.com/awardprj/AwardCoin.git
     cd AwardCoin
     ./autogen.sh
     ./configure
