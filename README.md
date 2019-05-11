@@ -49,4 +49,4 @@ https://github.com/awardprj/AwardCoin/releases
 
 P2P port: 19919, RPC port: 19915
 -
-Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php..
+Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
