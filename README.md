@@ -2,7 +2,7 @@ AwardCoin Core (fork of PIVX) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/AwardCoin/lgs-install) to install a AwardCoin Masternode on a Linux server running Ubuntu 14.04, 16.04, 18.04
+It is recommended [use the shell script](https://github.com/AwardCoin/awr-install) to install a AwardCoin Masternode on a Linux server running Ubuntu 14.04, 16.04, 18.04
 
 ***
 
