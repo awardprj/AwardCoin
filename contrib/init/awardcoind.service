@@ -1,0 +1,26 @@
+[Unit]
+Description=AwardCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=awardcoin
+Group=awardcoin
+
+Type=forking
+PIDFile=/var/lib/awardcoind/awardcoind.pid
+
+ExecStart=/usr/bin/awardcoind -daemon -pid=/var/lib/awardcoind/awardcoind.pid \
+          -conf=/etc/awardcoin/awardcoin.conf -datadir=/var/lib/awardcoind
+
+ExecStop=-/usr/bin/awardcoin-cli -conf=/etc/awardcoin/awardcoin.conf \
+         -datadir=/var/lib/awardcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

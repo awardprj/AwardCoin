@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AwardCoin
+Comment=AwardCoin P2P Cryptocurrency
+Comment[fr]=AwardCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AwardCoin, eşten eşe kriptografik sanal para birimi
+Exec=awardcoin-qt %u
+Terminal=false
+Type=Application
+Icon=awardcoin128
+MimeType=x-scheme-handler/awardcoin;
+Categories=Office;Finance;

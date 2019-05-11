@@ -1,0 +1,26 @@
+# /etc/conf.d/awardcoind: config file for /etc/init.d/awardcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/awardcoin/awardcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/awardcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/awardcoind.pid"
+
+# Where to write awardcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/awardcoind"
+
+# User and group to own awardcoind process
+#BITCOIND_USER="awardcoin"
+#BITCOIND_GROUP="awardcoin"
+
+# Path to awardcoind executable
+#BITCOIND_BIN="/usr/bin/awardcoind"
+
+# Nice value to run awardcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
