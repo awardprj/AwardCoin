@@ -2,7 +2,7 @@ AwardCoin Core (fork of PIVX) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/AwardCoin/awr-install) to install a AwardCoin Masternode on a Linux server running Ubuntu 14.04, 16.04, 18.04
+It is recommended [use the shell script](https://github.com/awardprj/AwardCoin/awr-install) to install a AwardCoin Masternode on a Linux server running Ubuntu 14.04, 16.04, 18.04
 
 ***
 
@@ -19,7 +19,7 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/AwardCoin/AwardCoin.git
+    git clone https://github.com/awardprj/AwardCoin/AwardCoin.git
     cd AwardCoin
     ./autogen.sh
     ./configure
@@ -45,7 +45,7 @@ Demon status:
 
 All binaries for different operating systems, you can download in the releases repository:
 
-https://github.com/blacer/AwardCoin/releases
+https://github.com/awardprj/AwardCoin/releases
 
 P2P port: 19919, RPC port: 19915
 -
